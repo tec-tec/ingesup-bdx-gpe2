@@ -29,11 +29,21 @@ class ViewController: UIViewController {
 
     @IBAction func saveRestaurant(sender: AnyObject) {
 
-        print(nameTextfield.text!)
-        print(addressTextField.text!)
-        print(commentTextView.text)
-        print(alreadyVisitedSwitch.on)
-        print(gradeSlider.value)
+        guard nameTextfield.text?.isEmpty == false else {
+            return
+        }
+
+        let grade: Int?
+
+        if alreadyVisitedSwitch.on {
+            grade = Int(gradeSlider.value)
+        } else {
+            grade = nil
+        }
+
+        let resto = Restaurant(name: nameTextfield.text!, address: addressTextField.text!, comment: commentTextView.text, alreayVisited: alreadyVisitedSwitch.on, grade: grade)
+
+        print(resto)
     }
 
     @IBAction func switchValueChanged(sender: UISwitch) {
