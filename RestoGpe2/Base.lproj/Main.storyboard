@@ -94,6 +94,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zof-Xl-8vK">
+                                <rect key="frame" x="327" y="287" width="26" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -102,6 +109,7 @@
                         <outlet property="addressTextField" destination="6Ya-JD-PTE" id="FQi-4W-kGj"/>
                         <outlet property="alreadyVisitedSwitch" destination="J44-vX-L0z" id="Nc2-7L-0OS"/>
                         <outlet property="commentTextView" destination="yQK-Fz-acG" id="2y2-rK-XzX"/>
+                        <outlet property="gradeLabel" destination="Zof-Xl-8vK" id="bf0-vm-T3p"/>
                         <outlet property="gradeSlider" destination="E9k-Ws-zOu" id="CpS-JJ-rJQ"/>
                         <outlet property="nameTextfield" destination="CkR-aM-Xoj" id="e19-rk-r1C"/>
                     </connections>

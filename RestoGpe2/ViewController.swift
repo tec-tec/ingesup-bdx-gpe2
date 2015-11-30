@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var commentTextView: UITextView!
     @IBOutlet weak var alreadyVisitedSwitch: UISwitch!
     @IBOutlet weak var gradeSlider: UISlider!
+    @IBOutlet weak var gradeLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +52,8 @@ class ViewController: UIViewController {
         gradeSlider.enabled = sender.on
 //        gradeSlider.hidden = sender.off
     }
-    @IBAction func gradeChanged(sender: AnyObject) {
+    @IBAction func gradeChanged(sender: UISlider) {
+
+        gradeLabel.text = "\(Int(sender.value))"
     }
 }
