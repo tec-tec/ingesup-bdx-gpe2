@@ -13,6 +13,7 @@
 		338B61441C0C3BFF00034435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338B61431C0C3BFF00034435 /* Assets.xcassets */; };
 		338B61471C0C3BFF00034435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B61451C0C3BFF00034435 /* LaunchScreen.storyboard */; };
 		338B614F1C0C5E1300034435 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B614E1C0C5E1300034435 /* Extensions.swift */; };
+		338B61521C0C9C1C00034435 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B61511C0C9C1C00034435 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		338B61461C0C3BFF00034435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338B61481C0C3BFF00034435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338B614E1C0C5E1300034435 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		338B61511C0C9C1C00034435 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		338B613B1C0C3BFF00034435 /* RestoGpe2 */ = {
 			isa = PBXGroup;
 			children = (
+				338B61501C0C9C0800034435 /* Models */,
 				338B613C1C0C3BFF00034435 /* AppDelegate.swift */,
 				338B613E1C0C3BFF00034435 /* ViewController.swift */,
 				338B61401C0C3BFF00034435 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				338B61481C0C3BFF00034435 /* Info.plist */,
 			);
 			path = RestoGpe2;
+			sourceTree = "<group>";
+		};
+		338B61501C0C9C0800034435 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				338B61511C0C9C1C00034435 /* Restaurant.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338B61521C0C9C1C00034435 /* Restaurant.swift in Sources */,
 				338B613F1C0C3BFF00034435 /* ViewController.swift in Sources */,
 				338B614F1C0C5E1300034435 /* Extensions.swift in Sources */,
 				338B613D1C0C3BFF00034435 /* AppDelegate.swift in Sources */,
