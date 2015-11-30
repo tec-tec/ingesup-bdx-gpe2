@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Restaurant {
+struct Restaurant: CustomStringConvertible {
 
     let name: String
     let address: String
@@ -27,5 +27,9 @@ struct Restaurant {
         self.comment = comment
         self.alreayVisited = alreadyVisited
         self.grade = grade
+    }
+
+    var description: String {
+        return "Resto : " + name + " , à l'adresse " + address + " est noté \(grade)"
     }
 }

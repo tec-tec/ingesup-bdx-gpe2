@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var gradeSlider: UISlider!
     @IBOutlet weak var gradeLabel: UILabel!
 
+    var restoManager = RestaurantManager()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -44,8 +46,8 @@ class ViewController: UIViewController {
             resto = Restaurant(name: nameTextfield.text!, address: addressTextField.text!, comment: commentTextView.text)
         }
 
-
-        print(resto)
+        restoManager.addRestaurant(resto)
+        print(restoManager)
     }
 
     @IBAction func switchValueChanged(sender: UISwitch) {
