@@ -15,4 +15,17 @@ struct Restaurant {
     var comment: String
     var alreayVisited: Bool
     var grade: Int?
+
+    init(name: String, address: String, comment: String, alreadyVisited: Bool = false, grade: Int? = nil) {
+
+        if grade != nil && alreadyVisited == false {
+            fatalError("We should not grade before visiting")
+        }
+
+        self.name = name
+        self.address = address
+        self.comment = comment
+        self.alreayVisited = alreadyVisited
+        self.grade = grade
+    }
 }

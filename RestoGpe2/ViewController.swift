@@ -34,15 +34,16 @@ class ViewController: UIViewController {
             return
         }
 
-        let grade: Int?
+        let resto: Restaurant
 
         if alreadyVisitedSwitch.on {
-            grade = Int(gradeSlider.value)
+
+            resto = Restaurant(name: nameTextfield.text!, address: addressTextField.text!, comment: commentTextView.text, alreadyVisited: alreadyVisitedSwitch.on, grade: Int(gradeSlider.value))
+
         } else {
-            grade = nil
+            resto = Restaurant(name: nameTextfield.text!, address: addressTextField.text!, comment: commentTextView.text)
         }
 
-        let resto = Restaurant(name: nameTextfield.text!, address: addressTextField.text!, comment: commentTextView.text, alreayVisited: alreadyVisitedSwitch.on, grade: grade)
 
         print(resto)
     }
