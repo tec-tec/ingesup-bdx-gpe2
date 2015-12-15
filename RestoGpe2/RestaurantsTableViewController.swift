@@ -22,6 +22,12 @@ class RestaurantsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+
+        tableView.reloadData()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -53,6 +59,7 @@ class RestaurantsTableViewController: UITableViewController {
 
         if segue.identifier == "showForm" {
             let destVC = segue.destinationViewController as! ViewController
+            destVC.restoManager = self.restoManager
 
 
         } else if segue.identifier == "showDetails" {
