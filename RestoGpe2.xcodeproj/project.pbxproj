@@ -15,6 +15,7 @@
 		338B614F1C0C5E1300034435 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B614E1C0C5E1300034435 /* Extensions.swift */; };
 		338B61521C0C9C1C00034435 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B61511C0C9C1C00034435 /* Restaurant.swift */; };
 		338B61541C0CA04600034435 /* RestaurantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B61531C0CA04600034435 /* RestaurantManager.swift */; };
+		338B61581C0CC5C000034435 /* RestaurantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B61571C0CC5C000034435 /* RestaurantsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		338B614E1C0C5E1300034435 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		338B61511C0C9C1C00034435 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		338B61531C0CA04600034435 /* RestaurantManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantManager.swift; sourceTree = "<group>"; };
+		338B61571C0CC5C000034435 /* RestaurantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				338B613C1C0C3BFF00034435 /* AppDelegate.swift */,
 				338B613E1C0C3BFF00034435 /* ViewController.swift */,
 				338B61401C0C3BFF00034435 /* Main.storyboard */,
+				338B61571C0CC5C000034435 /* RestaurantsTableViewController.swift */,
 				338B614E1C0C5E1300034435 /* Extensions.swift */,
 				338B61431C0C3BFF00034435 /* Assets.xcassets */,
 				338B61451C0C3BFF00034435 /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 			files = (
 				338B61521C0C9C1C00034435 /* Restaurant.swift in Sources */,
 				338B61541C0CA04600034435 /* RestaurantManager.swift in Sources */,
+				338B61581C0CC5C000034435 /* RestaurantsTableViewController.swift in Sources */,
 				338B613F1C0C3BFF00034435 /* ViewController.swift in Sources */,
 				338B614F1C0C5E1300034435 /* Extensions.swift in Sources */,
 				338B613D1C0C3BFF00034435 /* AppDelegate.swift in Sources */,
