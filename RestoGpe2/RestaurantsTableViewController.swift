@@ -56,13 +56,21 @@ class RestaurantsTableViewController: UITableViewController {
 
 
         } else if segue.identifier == "showDetails" {
+
+            guard let cell = sender as? UITableViewCell else {
+                fatalError("Sender is not a cell")
+            }
+
+            guard let indexpath = tableView.indexPathForCell(cell) else {
+                fatalError("cell not found in tableview")
+            }
+
             let destVC = segue.destinationViewController as! RestaurantDetailsViewController
-            destVC.title = "Hellloooo!!!"
-            destVC.test = "Implemented !!"
+
+            let resto = restoManager.allRestaurants[indexpath.row]
+            destVC.currentRestaurant = resto
         }
 
-
-        
     }
 
 }
