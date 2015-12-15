@@ -37,13 +37,14 @@ class RestaurantsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
         // Comment this an uncomment below for the customCell
-        let cell = tableView.dequeueReusableCellWithIdentifier("RestoCell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("RestoCell", forIndexPath: indexPath)
         let resto = restoManager.allRestaurants[indexPath.row]
         cell.detailTextLabel?.text = resto.address
+        cell.textLabel?.text = resto.name
 
 //Uncomment for custom cell
-//        let cell = tableView.dequeueReusableCellWithIdentifier("RestoCell", forIndexPath: indexPath) as! CustomCell
-//        cell.aSwitch.setOn(false, animated: false)
+//        let cell = tableView.dequeueReusableCellWithIdentifier("RestoCell2", forIndexPath: indexPath) as! CustomCell
+//        cell.aSwitch.setOn(true, animated: false)
 
         return cell
     }
