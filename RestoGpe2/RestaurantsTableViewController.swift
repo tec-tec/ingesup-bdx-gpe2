@@ -49,6 +49,14 @@ class RestaurantsTableViewController: UITableViewController {
         return cell
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+
+        let destVC = segue.destinationViewController as! RestaurantDetailsViewController
+        destVC.title = "Hellloooo!!!"
+        destVC.test = "Implemented !!"
+        
+    }
+
 }
 
 class CustomCell: UITableViewCell {

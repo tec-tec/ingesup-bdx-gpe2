@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3303CAF61C202B44005B19A4 /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303CAF51C202B44005B19A4 /* RestaurantDetailsViewController.swift */; };
 		338B613D1C0C3BFF00034435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B613C1C0C3BFF00034435 /* AppDelegate.swift */; };
 		338B613F1C0C3BFF00034435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B613E1C0C3BFF00034435 /* ViewController.swift */; };
 		338B61421C0C3BFF00034435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B61401C0C3BFF00034435 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3303CAF51C202B44005B19A4 /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
 		338B61391C0C3BFF00034435 /* RestoGpe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestoGpe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B613C1C0C3BFF00034435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338B613E1C0C3BFF00034435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				338B613E1C0C3BFF00034435 /* ViewController.swift */,
 				338B61401C0C3BFF00034435 /* Main.storyboard */,
 				338B61571C0CC5C000034435 /* RestaurantsTableViewController.swift */,
+				3303CAF51C202B44005B19A4 /* RestaurantDetailsViewController.swift */,
 				338B614E1C0C5E1300034435 /* Extensions.swift */,
 				338B61431C0C3BFF00034435 /* Assets.xcassets */,
 				338B61451C0C3BFF00034435 /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				338B613F1C0C3BFF00034435 /* ViewController.swift in Sources */,
 				338B614F1C0C5E1300034435 /* Extensions.swift in Sources */,
 				338B613D1C0C3BFF00034435 /* AppDelegate.swift in Sources */,
+				3303CAF61C202B44005B19A4 /* RestaurantDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				338B614D1C0C3BFF00034435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
