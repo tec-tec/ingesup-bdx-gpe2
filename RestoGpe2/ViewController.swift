@@ -59,4 +59,10 @@ class ViewController: UIViewController {
 
         gradeLabel.text = "\(Int(sender.value))"
     }
+
+    @IBAction func cancel(sender: AnyObject) {
+
+        //Dire a la vue modale de disparraitre
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 }
