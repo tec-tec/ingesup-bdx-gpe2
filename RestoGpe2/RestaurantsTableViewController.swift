@@ -51,9 +51,17 @@ class RestaurantsTableViewController: UITableViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
-        let destVC = segue.destinationViewController as! RestaurantDetailsViewController
-        destVC.title = "Hellloooo!!!"
-        destVC.test = "Implemented !!"
+        if segue.identifier == "showForm" {
+            let destVC = segue.destinationViewController as! ViewController
+
+
+        } else if segue.identifier == "showDetails" {
+            let destVC = segue.destinationViewController as! RestaurantDetailsViewController
+            destVC.title = "Hellloooo!!!"
+            destVC.test = "Implemented !!"
+        }
+
+
         
     }
 

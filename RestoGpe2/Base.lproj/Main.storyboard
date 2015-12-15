@@ -98,7 +98,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ySx-M3-nEe">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mwx-F0-MFQ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mwx-F0-MFQ">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="showForm" id="rqQ-al-gTK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VJ-PA-87W" userLabel="First Responder" sceneMemberID="firstResponder"/>
